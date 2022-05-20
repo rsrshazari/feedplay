@@ -229,6 +229,7 @@ if(isset($_GET['msg'])&&$_GET['msg']!=''){
 			</div>
 	</div>
 	</div>
+
 <?php include 'include/script.php' ?>
 <script src="assets1/js/plugins/datatables.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js" charset="utf-8"></script>
@@ -242,14 +243,11 @@ document.execCommand("copy");
 </script>
 <script type="text/javascript">
 function verifyARecord(id){
-var uid='3';
-var domain='5';
-alert(id);
+
 	$('#cnameLbl').hide();
 	$('#cnameLoder').show();
 	$.ajax({
 			type: 'POST',
-			dataType:'text',
 			url: 'getVerifyDns.php',
 			data:{domId:id},
 			error: function(XMLHttpRequest, textStatus, errorThrown) {
