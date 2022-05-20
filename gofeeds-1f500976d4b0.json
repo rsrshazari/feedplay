@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "gofeeds",
+  "private_key_id": "1f500976d4b083cb5d854d464bbd82c9a3353877",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCx3tdYGBP16MxE\nGlgZb29HKJuUikGTHiI1lvC129aoAaH9p1kuUCfOUvifRiGByMrQM9lcZ5KEN/2D\nwVt2TWAWrzBju1cHuVM9lDUOPCAIcFqXpEaXKvo64Bdgbi0K65KMs6o+PQxyPuSb\nIkDC1AkKi2Ucs8MkuhLnBYW+3MmGxTBbdwykLaP8kYbEdqW7xUWno5G74qXfLpCc\n6LNZ7Ddnw2Q0Z97Sf6JYdzVLqXYnglL0bUrIo/3EkAuAqePQVCuj1FT/rUp08ML6\nUUSR863ULbsf9/yJ6xBlGogy7SfVuKDV/VcYzwMJnY6xfD479cWDW5sxGEEF7dFS\niqCb1MmtAgMBAAECggEAAY/pt8LEYByajf7mPFjzyFNKudf/V0WvOrsX45z/P7ao\nn86ZtFQCDtLrOejhhUndwCIzG+zmnEXVR+mJk6/TyCHjQf5PTMh7pZbjjWZenfxb\nS1QnG4+bfCtjgSu5NmHscFMT9nEjpsLhz/FR0h7kcm+Czz5OmIgQKkUXOt57tZ+K\nIzrMjAU8tC9UKyj5mQ+XF3funJnx69cYjCL35ftAeXA1gHde5TSk1qL54nIHYOwG\nGLFYSvZH98YkM/wEhOZFQ0ERbZIT67J8XMsItFQ1+Pf5r34/rbNt7XmU0J/duFDx\nc1ar5Hw9GuDVlr+A2aUt6Wi9CnON8OcQ0YNvD9hsmQKBgQDm5KZ4Ueji804AOvxq\n3fRWqI/UbRzhx995wcW3isfrvD6sfoiOxK9ebvWO6GwvHKe4+VHIYbAXritob98E\noYxHJZp8w7WiRWMk0irUD6o6mtEIQJ2ytXl3o+ymBv4FEYjlL19l7lDHrINhP9ym\n0BDgEJgvVObCACflkLwynnG4eQKBgQDFNjQe+78TgDll7QEQj4cb0UrtzzXpQBvO\nSvOGvyyxEPRq6QpB0xZCYQI3C7IuV7sNTSflJukbeNK6EDZkdtC3OiQLUheJJvV7\nMVnZIINbpVCyEjJLVbYlC/hYdkce1KT1Ydio29wAFWkjXOaZZNa/5nvpDS+6WAPL\nGw4b4V911QKBgQCbsyDXDlU/hdbZrO0+m4IDVhP3qcTKNGBs2NCdnsaGHyEcbQ9l\nRxkDU0vgHLenZWltASO3Prjinx7ChH4dv1q7N45gCBHZ5XSgBeG/sviWIIRJTlmJ\ng3rvxOj2ZMyzWkm4UyO/tt9eZuUJlWkUTEa08jvN3zDlLfm5gsqGT/Zb8QKBgA56\n6GDOAz2fUJeXS1i38Setul6ztDWoK2J+RltCdjmaERg4fDRRF3VQQiVgini0oFtd\nquw8aylFOdPHlPbTcofBkRvzrx626ZdeDEbRCFQWU1J/24mEhZc6xcVZCefNnT8X\nLB1Z51FqQQoDrDrfGJWGitqVyUdZZw3msqaBaczxAoGBAMFgz+7detQ+rzR1QTKo\n9bp5hhkLE7hoyKKs5kDcWe9FBugVl6pFAwJUlhkA1Pk6X9XgujRKe7hiR6CWoYPu\nXfoi0M1f1DOSp2uSJ2lD/mIbfjC+MlWdxcyYEBHSgZL6zOdcOh5E1cxxZPbN+IHb\nhoFom9aA+fEJPvcVfEc3lgvt\n-----END PRIVATE KEY-----\n",
+  "client_email": "gofeeds@gofeeds.iam.gserviceaccount.com",
+  "client_id": "110110162910737234932",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gofeeds%40gofeeds.iam.gserviceaccount.com"
+}

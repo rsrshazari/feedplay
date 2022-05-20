@@ -1,0 +1,12 @@
+<VirtualHost *:8081>
+    ServerAdmin webmaster@aara.health
+    DocumentRoot "C:/xampp/htdocs/gofeednew"
+    ServerName aara.health
+    ErrorLog "logs/aara.health-error.log"
+    CustomLog "logs/aara.health.log" common
+	<Directory "C:/xampp/htdocs/gofeednew">
+      AllowOverride All
+      Order allow,deny
+      Allow from all
+   </Directory>
+</VirtualHost>

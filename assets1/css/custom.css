@@ -1,0 +1,146 @@
+.br-radius{
+border-radius: 4px;
+}
+.text-area{
+/* margin-top: 10pt; */
+}
+.preview{
+max-height: 420px;
+overflow-y: scroll;
+}
+.text-area-top{
+height: 6pt;
+background: linear-gradient(
+  180deg,hsla(0,0%,89.4%,0), #e4e4e4);
+background-blend-mode: multiply;
+}
+
+.text-area-select{
+padding: 12pt 12pt 62pt;
+color: #202e38;
+font-size: 13.5pt;
+font-family: "Roboto", sans-serif;
+font-weight: 500!important;
+overflow-y: auto;
+height: 220.5pt;
+line-height: 25pt;
+background-color: #fafafa;
+pointer-events: auto;
+cursor: pointer;
+position: relative;
+
+}
+
+.inner-text:hover{
+background: #4f377a;
+color: #fff;
+padding: 5px;
+border-radius: 10px;
+cursor: pointer;
+}
+.activeText{
+background: #4f377a;
+color: #fff;
+padding: 5px;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.play-video-icon{
+height: 45pt;
+background-color: #202e38;
+position: absolute;
+bottom: 86pt;
+right: 38pt;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 1;
+width: 45pt;
+border-radius: 50%;
+}
+
+.play-video-icon img{
+padding: 0;
+height: 12pt;
+margin: 0 7.5pt;
+cursor: pointer;
+}
+.right-bottom{
+position: absolute;
+bottom: 0px;
+right: 20px;
+}
+.quote{
+border-radius: 8px;
+background: #fff;
+}
+.highlight{
+border-radius: 8px;
+background: #fff;
+
+}
+.defination{
+border-radius: 8px;
+background-image: linear-gradient(310deg, #ced4da, #ebeff4);
+
+}
+.highlight span{
+background: yellow;
+color:black;
+}
+.imageDiv{
+border-radius: 8px;
+background: #fff;
+}
+.active {
+  font-weight: 600;
+  box-shadow: 0 0 2rem 0 rgb(136 152 170 / 15%);
+  border-radius: 0.5rem;
+    background-image: linear-gradient(310deg, #ced4da, #ebeff4);
+}
+.multisteps-form__progress {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(0,1fr));
+}
+.multisteps-form__progress-btn.js-active {
+  color: #344767;
+}
+@media (min-width: 500px){
+.multisteps-form__progress-btn {
+  text-indent: 0;
+}
+}
+.multisteps-form__progress-btn {
+  transition-property: all;
+  transition-duration: .15s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+  position: relative;
+  padding-top: 20px;
+  color: #dee2e6;
+  text-indent: -9999px;
+  border: none;
+  background-color: transparent;
+  outline: none!important;
+  cursor: pointer;
+}
+.multisteps-form__panel.js-active {
+  height: auto;
+  opacity: 1;
+  visibility: visible;
+}
+.multisteps-form__panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+.btn-check {
+  position: absolute;
+  clip: rect(0,0,0,0);
+  pointer-events: none;
+}

@@ -1,0 +1,7 @@
+{
+    "require": {
+        "google/cloud-text-to-speech": "^1.3",
+        "google/auth": "^1.18",
+        "google/cloud": "^0.173.1"
+    }
+}

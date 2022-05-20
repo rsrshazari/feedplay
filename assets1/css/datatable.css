@@ -1,0 +1,137 @@
+.dataTable-wrapper .dataTable-top {
+	padding: 1.5rem;
+}
+
+.dataTable-wrapper .dataTable-top .dataTable-dropdown {
+	float: left;
+}
+
+.dataTable-wrapper .dataTable-top .dataTable-dropdown label {
+	margin-bottom: 0;
+	margin-left: 0;
+	color: #8392ab;
+	font-weight: 400;
+}
+
+.dataTable-wrapper .dataTable-top .dataTable-dropdown label .dataTable-selector {
+	border-color: #e9ecef;
+	border-radius: .25rem;
+}
+
+.dataTable-wrapper .dataTable-top .dataTable-search input {
+	font-size: .875rem;
+	color: #495057;
+	border: 1px solid #e9ecef;
+	border-radius: .5rem;
+}
+
+.dataTable-wrapper .dataTable-top .dataTable-search input:focus-visible {
+	outline: none;
+}
+
+.dataTable-wrapper .dataTable-container .table thead tr th {
+	padding: .75rem 1.5rem;
+	opacity: .7;
+	font-weight: bolder;
+	color: #8392ab;
+	text-transform: uppercase;
+	font-size: .65rem;
+}
+
+.dataTable-wrapper .dataTable-container .table tbody tr td {
+	padding: .75rem 1.5rem;
+}
+
+.dataTable-wrapper .dataTable-bottom {
+	padding: 1.5rem;
+	padding-top: 0;
+}
+
+.dataTable-wrapper .dataTable-bottom .dataTable-info {
+	color: #8392ab;
+	font-size: .875rem;
+}
+
+.dataTable-wrapper .dataTable-bottom .dataTable-pagination .dataTable-pagination-list li a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #8392ab;
+	padding: 0;
+	margin: 0 3px;
+	border: 1px solid #dee2e6;
+	border-radius: 50%!important;
+	width: 36px;
+	height: 36px;
+	font-size: .875rem;
+	margin-left: 0;
+}
+
+.dataTable-wrapper .dataTable-bottom .dataTable-pagination .dataTable-pagination-list li a:hover {
+	background: #e9ecef;
+}
+
+.dataTable-wrapper .dataTable-bottom .dataTable-pagination .dataTable-pagination-list .active a {
+	background: transparent;
+	background-image: linear-gradient(310deg,#5e72e4,#825ee4);
+	box-shadow: 0 7px 14px rgba(50,50,93,.1),0 3px 6px rgba(0,0,0,.08);
+	color: #fff;
+	border: none;
+	border-radius: 50%!important;
+}
+
+.dataTable-wrapper .dataTable-bottom .dataTable-pagination .dataTable-pagination-list .active a:hover {
+	background-image: linear-gradient(310deg,#5e72e4,#825ee4);
+}
+
+.dataTable-wrapper.no-footer .dataTable-container {
+	border-bottom: 0;
+}
+
+.dataTable-table tbody td,.dataTable-table tbody th,.dataTable-table tfoot td,.dataTable-table tfoot th,.dataTable-table thead td,.dataTable-table thead th {
+	vertical-align: middle!important;
+}
+.dataTable-pagination ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.dataTable-wrapper .dataTable-top .dataTable-dropdown label {
+    margin-bottom: 0;
+    margin-left: 0;
+    color: #8392ab;
+    font-weight: 400;
+}
+.dataTable-bottom>div:first-child, .dataTable-bottom>nav:first-child, .dataTable-top>div:first-child, .dataTable-top>nav:first-child {
+    float: left;
+}
+.dataTable-info {
+    margin: 7px 0;
+}
+.dataTable-bottom>div:last-child, .dataTable-bottom>nav:last-child, .dataTable-top>div:last-child, .dataTable-top>nav:last-child {
+    float: right;
+}
+.dataTable-pagination li {
+    list-style: none;
+    float: left;
+}
+.form-label, label {
+    font-size: .75rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #344767;
+    margin-left: 0.25rem;
+}
+
+.dataTable-input {
+    padding: 6px 12px;
+}
+.dataTable-selector {
+    padding: 6px;
+}
+@media (max-width:575.98px) {
+	.dataTable-top>div:last-child {
+		float: left;
+		margin-top: 1rem;
+	}
+}
